@@ -1,0 +1,16 @@
+…or create a new repository on the command line
+echo "# fdpdemocicdnhce" >> README.md
+git init
+git add .\index.html
+git add README.md
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SojaNaveen/fdpdemocicdnhce.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/SojaNaveen/fdpdemocicdnhce.git
+git branch -M main
+git push -u origin main
+git config --global user.email "soja.nhce@gmail.com"
+git config --global user.name "SojaNaveen"
